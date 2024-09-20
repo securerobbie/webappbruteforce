@@ -2,13 +2,13 @@ import requests
 import sys
 
 # Target URL based on the form action
-target = "http://192.168.1.105/login.php"
+target = "Put Target IP Address"
 
 # List of usernames to try
 usernames = ["admin", "user", "test"]
 
 # Path to the password list file
-passwords = "top100.txt"
+passwords = "Use your favorite word list"
 
 # Message to look for when login is successful
 base_needle = "You have logged in as '{}'"
